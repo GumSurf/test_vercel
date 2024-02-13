@@ -7,6 +7,4 @@ const swaggerUi = require('swagger-ui-express')
 const yaml = require('yamljs')
 const swaggerDocs = yaml.load('swagger.yaml')
 const app = express()
-
-const db = require("./models");
 module.exports = app;
